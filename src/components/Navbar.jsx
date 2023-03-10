@@ -9,7 +9,7 @@ const Navbar = () => {
       <Link to='/'>
         <img src={gighutLogo} alt="" />
       </Link>
-      <div className="lg:flex hidden items-center gap-10">
+      <div className="lg:flex hidden items-center gap-6">
         {
           navLinks.map(navLink => (
             <Link to='' className='hover:text-gray-500'>
@@ -18,13 +18,13 @@ const Navbar = () => {
           ))
         }
       </div>
-      <div className="hidden items-center gap-10 lg:flex">
+      <div className="hidden items-center gap-6 lg:flex">
         <div className="relative border px-12 h-[40px] flex items-center rounded-full">
           <input type="text" className="outline-none bg-transparent" placeholder='Search' />
           <img src={searchIcon} alt="" className="absolute top-2 left-4" />
         </div>
         <div className="flex items-center gap-4">
-          <Link>Login</Link>
+          <Link className='hover:text-gray-500'>Login</Link>
           <button className="btn1 hover:bg-dimPrimary">
             Sign Up
           </button>

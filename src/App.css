@@ -5,10 +5,16 @@ a, input, button {
 
 button {
   border-radius: 50px;
+  padding: 8px 24px;
 }
 
 .btn1 {
-  padding: 8px 24px;
   background-color: #8448E7;
   color: white;
+}
+
+.btn2 {
+  color: #8448E7;
+  background-color: transparent;
+  border: 1px solid #8448E7;
 }
