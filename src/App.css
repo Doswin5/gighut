@@ -1,0 +1,14 @@
+a, input, button {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+button {
+  border-radius: 50px;
+}
+
+.btn1 {
+  padding: 8px 24px;
+  background-color: #8448E7;
+  color: white;
+}
