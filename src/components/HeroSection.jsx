@@ -3,7 +3,7 @@ import { curve, heroSectionImage, videoPlayIcon } from '../assets'
 
 const HeroSection = () => {
   return (
-    <div className='lg:py-[40px] py-6 flex lg:flex-row flex-col  items-center bg-[#e5d4ff2d] lg:px-[100px] px-10 gap-10'>
+    <div className='lg:py-[40px] py-6 flex lg:flex-row flex-col  items-center bg-[#e5d4ff2d] lg:px-[100px] px-4 gap-6 lg:gap-18'>
       <div>
         <span className="font-medium text-[15px] text-[#A2A2A2]">
           2021 BEST FREELANCE SOFTWARE AWARDS
@@ -18,10 +18,10 @@ const HeroSection = () => {
           World’s Leading Freelance Platform, Get the best freelancers and work with top major companies.
         </p>
         <div className="flex gap-4">
-          <button className="btn1 hover:bg-dimPrimary text-[16px] lg:text-[18px]">
+          <button className="btn1 hover:bg-dimPrimary text-[12px] lg:text-[18px]">
             Hire a freelancer
           </button>
-          <button className="btn2 flex gap-2 items-center text-[16px] lg:text-[18px]">
+          <button className="btn2 flex gap-2 items-center text-[12px] lg:text-[18px]">
             <img src={videoPlayIcon} alt="" />
             See how it works
           </button>
