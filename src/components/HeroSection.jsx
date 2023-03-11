@@ -18,7 +18,7 @@ const HeroSection = () => {
           World’s Leading Freelance Platform, Get the best freelancers and work with top major companies.
         </p>
         <div className="flex gap-4">
-          <button className="btn1 text-[16px] lg:text-[18px]">
+          <button className="btn1 hover:bg-dimPrimary text-[16px] lg:text-[18px]">
             Hire a freelancer
           </button>
           <button className="btn2 flex gap-2 items-center text-[16px] lg:text-[18px]">
