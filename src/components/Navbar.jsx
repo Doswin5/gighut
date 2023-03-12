@@ -20,12 +20,12 @@ const Navbar = () => {
           ))
         }
       </div>
-      <div className="hidden items-center gap-6 lg:flex justify-end w-full">
-        <div className="relative border px-12 h-[40px] flex items-center rounded-full w-[200px]">
-          <input type="text" className="outline-none w-[150px] bg-transparent" placeholder='Search' />
-          <img src={searchIcon} alt="" className="absolute top-2 left-4" />
+      <div className="items-center gap-6 lg:flex justify-end w-full">
+        <div className="lg:border px-4 h-[40px] flex items-center lg:flex-row flex-row-reverse rounded-full lg:w-[200px] gap-4">
+          <img src={searchIcon} alt="" className="cursor-pointer" />
+          <input type="text" className="outline-none lg:w-[150px] w-24 bg-transparent" placeholder='Search' />
         </div>
-        <div className="flex items-center gap-4 justify-end">
+        <div className="lg:flex hidden items-center gap-4 justify-end">
           <Link to='' className='hover:text-gray-500'>
             Login
           </Link>
@@ -34,8 +34,7 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-      <div className="lg:hidden flex gap-4 items-center">
-        <img src={searchIcon} alt="" className='h-6 w-6 cursor-pointer' />
+      <div className="lg:hidden flex items-center">
         <img src={menuIcon} alt="" className='cursor-pointer h-10 w-8' />
       </div>
     </div>

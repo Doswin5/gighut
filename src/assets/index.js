@@ -13,6 +13,8 @@ import company6 from './company6.png'
 import hireImage from './hireImage.png'
 import workImage from './workImage.png'
 import chevronRight from './chevronRight.png'
+import openingQuote from './openingQuote.png'
+import closingQuote from './closingQuote.png'
 
 export {
   gighutLogo,
@@ -30,4 +32,6 @@ export {
   hireImage,
   workImage,
   chevronRight,
+  openingQuote,
+  closingQuote,
 }
