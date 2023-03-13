@@ -20,7 +20,7 @@ const Footer = () => {
               </h3>
               {
                 footer.sublinks.map(sublink => (
-                  <p className="font-normal text-[16px] lg:text-[18px] mb-2 cursor-pointer">
+                  <p className="font-light text-[14px] lg:text-[18px] mb-2 cursor-pointer">
                     {sublink.sublinkname}
                   </p>
                 ))
