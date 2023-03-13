@@ -7,7 +7,7 @@ const Categories = () => {
       <h2 className="font-bold lg:text-[36px] text-[24px] mb-4">
         Browse Available Categories
       </h2>
-      <p className="relative font-normal text-[16px] lg:text-[18px] text-dimBlack mb-10">
+      <p className="font-normal text-[16px] lg:text-[18px] text-dimBlack mb-10">
         Need Professionals? Search here
       </p>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

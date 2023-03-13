@@ -1,6 +1,8 @@
 import gighutLogo from './gighutLogo.png'
+import gighutWhite from './gighutWhite.png'
 import searchIcon from './searchIcon.png'
 import menuIcon from './menuIcon.png'
+import closeIcon from './closeIcon.png'
 import heroSectionImage from './heroSectionImage.png'
 import curve from './curve.png'
 import videoPlayIcon from './videoPlayIcon.png'
@@ -15,11 +17,16 @@ import workImage from './workImage.png'
 import chevronRight from './chevronRight.png'
 import openingQuote from './openingQuote.png'
 import closingQuote from './closingQuote.png'
+import registerImage from './registerImage.png'
+import plusIcon from './plusIcon.png'
+import minusIcon from './minusIcon.png'
 
 export {
   gighutLogo,
+  gighutWhite,
   searchIcon,
   menuIcon,
+  closeIcon,
   heroSectionImage,
   curve,
   videoPlayIcon,
@@ -34,4 +41,7 @@ export {
   chevronRight,
   openingQuote,
   closingQuote,
+  registerImage,
+  plusIcon,
+  minusIcon,
 }
