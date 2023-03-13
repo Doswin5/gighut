@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="items-center gap-6 lg:flex justify-end w-full">
         <div className="lg:border px-4 h-[40px] flex items-center lg:flex-row flex-row-reverse rounded-full lg:w-[200px] gap-4">
           <img src={searchIcon} alt="" className="cursor-pointer" />
-          <input type="text" className="outline-none lg:w-[150px] w-16 bg-transparent" placeholder='Search' />
+          <input type="text" className="outline-none lg:w-[150px] w-16 bg-transparent text-[12px] lg:text-[18px]" placeholder='Search' />
         </div>
         <div className="lg:flex hidden items-center gap-4 justify-end">
           <Link to='' className='hover:text-gray-500'>

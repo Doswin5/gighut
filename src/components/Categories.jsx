@@ -10,10 +10,10 @@ const Categories = () => {
       <p className="font-normal text-[16px] lg:text-[18px] text-dimBlack mb-10">
         Need Professionals? Search here
       </p>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6">
         {
           categories.map(category => (
-            <div className="bg-[#F2EAFF] text-black flex flex-col gap-4 p-6 rounded-[16px]">
+            <div className="bg-[#F2EAFF] text-black flex flex-col gap-4 lg:p-6 p-4 rounded-[16px]">
               <h3 className="font-medium text-[16px] lg:text-[24px]">
                 {category.linkname}
               </h3>

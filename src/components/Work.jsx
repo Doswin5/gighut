@@ -19,7 +19,7 @@ const Work = () => {
             <span className="text-primary text-[16px] gap-[2px] lg:inline block items-center cursor-pointer hover:text-dimPrimary"> Read more <img src={chevronRight} alt="" className='inline' /></span>
           </li>
         </ul>
-        <button className="btn1 hover:bg-dimPrimary mt-10 text-[12px] lg:text-[18px]">Signup for Free</button>
+        <button className="btn1 hover:bg-dimPrimary mt-10 text-[12px] lg:text-[18px] py-2 lg:px-6 px-4">Signup for Free</button>
       </div>
       <img src={workImage} alt="" className="w-full lg:w-[50%]" />
     </div>

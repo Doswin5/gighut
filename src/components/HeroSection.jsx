@@ -18,10 +18,10 @@ const HeroSection = () => {
           World’s Leading Freelance Platform, Get the best freelancers and work with top major companies.
         </p>
         <div className="flex gap-4">
-          <button className="btn1 hover:bg-dimPrimary text-[12px] lg:text-[18px]">
+          <button className="btn1 hover:bg-dimPrimary text-[12px] lg:text-[18px] py-2 lg:px-6 px-4">
             Hire a freelancer
           </button>
-          <button className="btn2 flex gap-2 items-center text-[12px] lg:text-[18px]">
+          <button className="btn2 flex gap-2 items-center text-[12px] lg:text-[18px] py-2 lg:px-6 px-4">
             <img src={videoPlayIcon} alt="" />
             See how it works
           </button>
