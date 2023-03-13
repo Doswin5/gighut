@@ -14,7 +14,7 @@ const Testimonials = () => {
         We've had so many amazing things said about our services, here are some of them.
       </p>
       <div className="flex items-center gap-2 lg:gap-16 relative">
-        <div className={`text-white ${current > 0 ? 'bg-[#404040]' : 'bg-[#40404085]'} w-10 h-10 rounded-full flex items-center justify-center text-[24px] ${current > 0 ? 'cursor-pointer' : 'cursor-default'}`} onClick={() => {current > 0 && setCurrent(prev => prev - 1)}}>
+        <div className={`text-white ${current > 0 ? 'bg-[#404040]' : 'bg-[#40404085]'} w-10 h-10 rounded-full hidden lg:flex items-center justify-center text-[24px] ${current > 0 ? 'cursor-pointer' : 'cursor-default'}`} onClick={() => {current > 0 && setCurrent(prev => prev - 1)}}>
           &lt;
         </div>
         <div className='relative w-full lg:w-[50%]'>
@@ -41,7 +41,15 @@ const Testimonials = () => {
           <img src={openingQuote} alt="" className="absolute -top-8 lg:-top-[56px] left-0 lg:-left-[90px] lg:w-[100px] lg:h-[100px] w-8 h-8" />
           <img src={closingQuote} alt="" className="absolute -top-8 lg:-top-[86px] right-0 lg:-right-[60px] lg:w-[100px] lg:h-[100px] w-8 h-8" />
         </div>
-        <div className={`text-white ${current < testimonials.length - 1 ? 'bg-[#404040]' : 'bg-[#40404085]'} w-10 h-10 rounded-full flex items-center justify-center text-[24px] ${current < testimonials.length - 1 ? 'cursor-pointer' : 'cursor-default'}`} onClick={() => { current < testimonials.length - 1 && setCurrent(prev => prev + 1)}}>
+        <div className={`text-white ${current < testimonials.length - 1 ? 'bg-[#404040]' : 'bg-[#40404085]'} w-10 h-10 rounded-full hidden lg:flex items-center justify-center text-[24px] ${current < testimonials.length - 1 ? 'cursor-pointer' : 'cursor-default'}`} onClick={() => { current < testimonials.length - 1 && setCurrent(prev => prev + 1)}}>
+          &gt;
+        </div>
+      </div>
+      <div className="flex lg:hidden justify-center items-center gap-8 mt-8">
+        <div className={`text-white ${current > 0 ? 'bg-[#404040]' : 'bg-[#40404085]'} w-10 h-10 rounded-full flex items-center justify-center text-[24px] ${current > 0 ? 'cursor-pointer' : 'cursor-default'}`} onClick={() => { current > 0 && setCurrent(prev => prev - 1) }}>
+          &lt;
+        </div>
+        <div className={`text-white ${current < testimonials.length - 1 ? 'bg-[#404040]' : 'bg-[#40404085]'} w-10 h-10 rounded-full flex items-center justify-center text-[24px] ${current < testimonials.length - 1 ? 'cursor-pointer' : 'cursor-default'}`} onClick={() => { current < testimonials.length - 1 && setCurrent(prev => prev + 1) }}>
           &gt;
         </div>
       </div>
