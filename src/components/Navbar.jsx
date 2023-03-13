@@ -31,7 +31,7 @@ const Navbar = () => {
           <Link to='' className='hover:text-gray-500'>
             Login
           </Link>
-          <button className="btn1 hover:bg-dimPrimary">
+          <button className="btn1 hover:bg-dimPrimary text-[12px] lg:text-[18px] py-2 lg:px-6 px-4">
             Sign Up
           </button>
         </div>
@@ -59,7 +59,7 @@ const Navbar = () => {
                 Login
               </Link>
               <button 
-                className="btn1 hover:bg-dimPrimary text-[12px] lg:text-[18px]"
+                className="btn1 hover:bg-dimPrimary text-[12px] lg:text-[18px] py-2 lg:px-6 px-4"
                 onClick={() => setToggle(prev => !prev)}
               >
                 Sign Up
